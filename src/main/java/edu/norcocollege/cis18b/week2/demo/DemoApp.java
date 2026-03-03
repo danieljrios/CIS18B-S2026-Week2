@@ -8,7 +8,7 @@ package edu.norcocollege.cis18b.week2.demo;
  * This is NOT a replacement for JUnit tests. It's a quick way to
  * run/observe output while you're developing.
  *
- * TODO (Required):
+ * Required features already completed:
  *  - Instantiate LanguageBasicsReview and call demonstrate()
  *  - Instantiate ModernFeaturesDemo and call runDemo()
  *  - Print clear section headers so output is easy to read
@@ -17,9 +17,11 @@ package edu.norcocollege.cis18b.week2.demo;
  *  - Add simple timing (System.nanoTime) around each demo
  *  - Catch exceptions so one demo failing doesn’t stop the other
  */
-public class DemoApp {
+public class DemoApp 
+{
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
 
         System.out.println("========================================");
         System.out.println(" Week 1 Demo Harness");

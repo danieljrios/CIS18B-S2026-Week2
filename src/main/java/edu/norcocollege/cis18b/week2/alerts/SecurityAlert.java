@@ -1,17 +1,15 @@
 package edu.norcocollege.cis18b.week2.alerts;
 
-/**
- * TODO:
- *  - Convert this class into a Java 17+ record
- *  - Include the following fields:
- *      String id
- *      String sourceSystem
- *      String severity
- *      String description
- *      long timestamp
- *
- *  - (Optional stretch) Add validation in a compact constructor
- */
-public class SecurityAlert {
-    // TODO: Replace this entire class with a record
-}
+// Replacing public class "SecurityAlert" with a record to create immutable data classes
+public record SecurityAlert
+(
+    String id,
+    String sourceSystem,
+    String severity,
+    String description,
+    long timestamp
+) {}
+
+// Explanation for why this object is immutable: 
+// Records in Java are automatically immutable by design. Once an instance of 
+// a record is created its state can't be changed.
